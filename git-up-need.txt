@@ -1,0 +1,8 @@
+# 1. 將所有變更或新增的檔案加入暫存區
+git add .
+
+# 2. 提交變更並加上說明訊息（建議使用英文）
+git commit -m "feat: update code from new computer"
+
+# 3. 將更新推送到 GitHub 遠端倉庫
+git push origin main
