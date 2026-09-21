@@ -1,0 +1,7 @@
+安裝專案相依套件（讓 YOLOv9 與影像處理正常運作）：
+
+pip install ultralytics opencv-python Pillow
+
+設定 Git 身份（讓雲端 Git 知道你是誰，才能順利 commit / push）：
+git config --global user.name "Github名字"
+git config --global user.email "你的GitHub信箱@example.com"
