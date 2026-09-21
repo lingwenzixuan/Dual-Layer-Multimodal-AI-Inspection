@@ -6,3 +6,10 @@ git commit -m "feat: update code from new computer"
 
 # 3. 將更新推送到 GitHub 遠端倉庫
 git push origin main
+
+# 4.將遠端變更抓回本地並整合
+git pull origin main --allow-unrelated-histories
+(註：如果此時跳出黑色文字編輯畫面，請依序按 Esc 鍵、輸入 :wq、然後按下 Enter 離開。)
+
+# 5.重新推送到 GitHub
+git push -u origin main
