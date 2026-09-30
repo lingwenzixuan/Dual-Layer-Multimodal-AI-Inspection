@@ -14,5 +14,5 @@ if torch.cuda.is_available():
     print("GPU 詳細屬性:", torch.cuda.get_device_properties(0)) # 列印 GPU 詳細屬性
 
 print("Ultralytics 版本:", ultralytics.__version__)  # 列印 ultralytics 版本
-model = YOLO('yolov9c.pt')                           # 載入預訓練 YOLOv9c 模型
+model = YOLO('first_tast/yolov9c.pt')                           # 載入預訓練 YOLOv9c 模型
 model.info()                                         # 列印 YOLOv9 模型參數
