@@ -1,0 +1,12 @@
+# 資料集根目錄絕對路徑
+path: D:/YOLOV9/Glass_Inspection/dataset
+
+# 訓練與驗證圖片相對路徑
+train: images/train
+val: images/val
+
+# 類別數量與名稱
+names:
+  0: scratch
+  1: bubble
+  2: dust
