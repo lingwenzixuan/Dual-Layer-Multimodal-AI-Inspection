@@ -6,7 +6,7 @@ if __name__ == '__main__':
     model = YOLO("yolov9c.pt")
 
     # 2. 指定 custom_data.yaml 的真實絕對路徑 (路徑前加 r 避免轉義字元)
-    yaml_path = r"D:\YOLOV9\Glass_Inspection\custom_data.yaml"
+    yaml_path = r"D:\YOLOV9\Dual-Layer-Multimodal-AI-Inspection\custom_data.yaml"
 
     # 3. 開始訓練 (針對玻璃瑕疵優化的參數)
     results = model.train(

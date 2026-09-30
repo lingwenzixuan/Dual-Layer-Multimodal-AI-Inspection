@@ -5,7 +5,7 @@ import cv2
 from ultralytics import YOLO
 
 # 1. 確保儲存結果的資料夾存在（自動建立 test_picture 資料夾）
-output_dir = "test_picture"
+output_dir = "../test_picture"
 if not os.path.exists(output_dir):
   os.makedirs(output_dir)
 
